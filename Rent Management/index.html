@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>House Rent Management Service</title>
+	<link rel="stylesheet" type="text/css" href="css/stylelogin.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat" rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+		</style>
+	<style>
+		body{
+			background-color:#5D6D7E;
+			
+			margin: 0px;
+			padding: 0px;
+
+		}
+		.content{
+			display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+			width: 100%;
+	
+		}
+		.box{
+			height: 100%;
+		}
+
+
+	</style>
+   </head>
+<body>
+	<header>
+		<nav>
+			<h1> Rent Manager</h1>
+			<ul id="navli">
+                <li><a class="current-page" href="#">HOME</a></li>
+                <li><a class="other-page" href="owner-login.html">USER LOG IN</a></li>
+				<li><a class="other-page" href="admin-login.html">ADMIN LOG IN</a></li>
+				<li><a class="other-page" href="owner-signup.html">SIGN UP</a></li>
+				<li><a class="other-page" href="about.html">ABOUT</a></li>
+			</ul>
+
+		</nav>
+	</header>
+	<div class="line"></div>
+<!-- 
+	<div class="content" >
+ 
+		<div class="box">
+            <h1>Welcome</h1>
+        </div>
+	</div> -->
+	<div class="loginbox">
+		<img src="img/house.png" class="avatar" style="background-color: #b030b0;">
+		<div class="content" >
+ 
+			<div class="box">
+				<h1 style="font-family: 'Monda', sans-serif;">Welcome To House Rent Management Service</h1>
+			</div>
+		</div>
+		<input style="padding: 0%; margin: 0%;" type="submit" name="login-submit" value="Login" onClick="location.href='owner-login.html'">
+
+
+				<h1 style="font-family: 'Monda', sans-serif; padding: 0%; margin: 0%; font-size: small;">Or</h1>
+
+
+		<input type="submit" name="login-submit" value="Sign Up" onClick="location.href='owner-signup.html'">
+	</div>
+
+</html>

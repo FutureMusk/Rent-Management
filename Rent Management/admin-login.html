@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>House Rent Management Service</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/stylelogin.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1> Rent Manager</h1>
+			<ul id="navli">
+                <li><a class="other-page" href="index.html">HOME</a></li>
+				<li><a class="other-page" href="owner-login.html">OWNER LOG IN</a></li>
+				<li><a class="current-page" href="admin-login.html">ADMIN LOG IN</a></li>
+				<li><a class="other-page" href="owner-signup.html">SIGN UP</a></li>
+				<li><a class="other-page" href="about.html">ABOUT</a></li>
+			</ul>
+            <!-- <div class="logout">Logout button place holder</div> -->
+		</nav>
+	</header>
+	<div class="line"></div>
+
+	<div class="loginbox">
+
+        <h1>Login As<br>Site Admin</h1>
+        <form action="php/aprocess.php" method="POST">
+            <p>Email</p>
+            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Login">
+           
+        </form>
+        
+    </div>
+</body>
+</html>

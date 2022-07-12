@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>House Rent Management Service</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/stylesignup.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1> Rent Manager</h1>
+			<ul id="navli">
+                <li><a class="other-page" href="index.html">HOME</a></li>
+				<li><a class="other-page"  href="owner-login.html">OWNER LOG IN</a></li>
+				<li><a class= "other-page" href="admin-login.html">ADMIN LOG IN</a></li>
+				<li><a class="current-page" href="owner-signup.html">SIGN UP</a></li>
+				<li><a class="other-page" href="about.html">ABOUT</a></li>
+			</ul>
+            <!-- <div class="logout">Logout button place holder</div> -->
+		</nav>
+	</header>
+	<div class="line"></div>
+
+	<div class="reg-box">
+
+        <h1>House Owner Signup</h1>
+        <form action="php/owner-signup.php" method="POST">
+            <p>Name</p>
+            <input type="text" name="name" placeholder="Enter Your Name" required="required">
+            <p>E-mail</p>
+            <input type="text" name="email" placeholder="Enter Email Address" required="required">
+            <p>Phone Number</p>
+            <input type="text" name="phone_num" placeholder="Enter Your Phone Number" >
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Sign Up">
+           
+        </form>
+        
+    </div>
+</body>
+</html>
